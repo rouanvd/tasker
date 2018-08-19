@@ -1,0 +1,29 @@
+{
+  "name": "ui",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-console": "^4.1.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-either": "^4.0.0",
+    "purescript-functions": "^4.0.0",
+    "purescript-refs": "^4.1.0",
+    "purescript-integers": "^4.0.0",
+    "purescript-math": "^2.1.1",
+    "purescript-foldable-traversable": "^4.0.0",
+    "purescript-control": "^4.1.0",
+    "purescript-foreign": "^5.0.0",
+    "purescript-foreign-object": "^1.0.0",
+    "purescript-arrays": "^5.0.0",
+    "purescript-numbers": "^6.0.0",
+    "purescript-effect": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

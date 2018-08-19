@@ -1,0 +1,8 @@
+git config --global http.proxy http://S175APRXY102-vip.zarsa.corpintra.net:3128
+
+npm config set proxy http://S175APRXY102-vip.zarsa.corpintra.net:3128
+npm config set https-proxy http://S175APRXY102-vip.zarsa.corpintra.net:3128
+
+mv .bowerrc__ .bowerrc
+
+

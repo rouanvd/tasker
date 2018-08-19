@@ -1,0 +1,9 @@
+git config --global --remove-section http
+
+npm config delete proxy
+npm config delete https-proxy
+
+mv .bowerrc .bowerrc__
+
+
+

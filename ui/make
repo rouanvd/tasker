@@ -1,0 +1,8 @@
+# clean dist/ dir
+rm dist/*
+
+# copy static content/ into dist/
+cp content/* dist
+
+# build purescript bundle into dist/
+pulp build --to dist/output.js
